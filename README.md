@@ -33,42 +33,43 @@ Style      →  문제 정의 → 가설 → 검증 → 회고
 
 ## Tech Stack
 
+## Tech Stack
+
 **Languages**
-![Python](https://img.shields.io/badge/Python-000?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-000?style=flat-square&logo=postgresql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-000?style=flat-square&logo=javascript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-000?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-000?style=flat-square&logo=css3&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 **AI / ML**
-![PyTorch](https://img.shields.io/badge/PyTorch-000?style=flat-square&logo=pytorch&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-000?style=flat-square&logo=langchain&logoColor=white)
-![FAISS](https://img.shields.io/badge/FAISS-000?style=flat-square)
-![scikit--learn](https://img.shields.io/badge/scikit--learn-000?style=flat-square&logo=scikit-learn&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-000?style=flat-square&logo=mlflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge)
+![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 
 **Backend**
-![Django](https://img.shields.io/badge/Django-000?style=flat-square&logo=django&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 
 **Frontend**
-![Vue.js](https://img.shields.io/badge/Vue.js-000?style=flat-square&logo=vue.js&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
 
 **Data Engineering**
-![Pandas](https://img.shields.io/badge/Pandas-000?style=flat-square&logo=pandas&logoColor=white)
-![DuckDB](https://img.shields.io/badge/DuckDB-000?style=flat-square&logo=duckdb&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-000?style=flat-square&logo=selenium&logoColor=white)
-![Airflow](https://img.shields.io/badge/Airflow-000?style=flat-square&logo=apacheairflow&logoColor=white)
-![Spark](https://img.shields.io/badge/Spark-000?style=flat-square&logo=apachespark&logoColor=white)
-![Flink](https://img.shields.io/badge/Flink-000?style=flat-square&logo=apacheflink&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-000?style=flat-square&logo=apachekafka&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-000?style=flat-square&logo=elasticsearch&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![Spark](https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Flink](https://img.shields.io/badge/Flink-E6526F?style=for-the-badge&logo=apacheflink&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
 
 **Infra**
-![Docker](https://img.shields.io/badge/Docker-000?style=flat-square&logo=docker&logoColor=white)
-![GitLab](https://img.shields.io/badge/GitLab-000?style=flat-square&logo=gitlab&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-000?style=flat-square&logo=linux&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-000?style=flat-square&logo=googlecloud&logoColor=white)
-
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ---
 
 ## Stats

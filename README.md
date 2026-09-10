@@ -129,10 +129,6 @@
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=KangRyun&theme=github_dark" />
     <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=KangRyun&theme=github" alt="Top languages by repo" />
   </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=KangRyun&theme=github_dark" />
-    <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=KangRyun&theme=github" alt="Top languages by commit" />
-  </picture>
 </p>
 
 ---

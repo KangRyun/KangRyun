@@ -3,7 +3,6 @@
 <h1 align="center">이강륜</h1>
 <p align="center"><b>Data · AI Engineer</b></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/%ED%95%9C%EB%82%A8%EB%8C%80%20%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%91%EC%9A%A9%ED%95%99%EA%B3%BC-3.88%2F4.5-0B5FFF?style=flat-square" />
   <img src="https://img.shields.io/badge/SSAFY-15%EA%B8%B0-1428A0?style=flat-square" />
   <a href="mailto:kr9370@naver.com"><img src="https://img.shields.io/badge/Email-kr9370%40naver.com-03C75A?style=flat-square" /></a>
 </p>

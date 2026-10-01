@@ -17,8 +17,8 @@
 
 **만든 뒤 운영까지 가는 엔지니어**
 
-- 한남대학교 공식 AI 챗봇 [hai.hannam.ac.kr](https://hai.hannam.ac.kr/)의 인프라·아키텍처를 맡아 **실서비스로 배포·운영 중**
-- 단일 EC2에 **12컨테이너** 인프라와 Jenkins CI/CD를 단독 구축, 빌드 병목을 실측해 **10.7분 → 44초**
+- 한남대학교 공식 AI 챗봇 [hai.hannam.ac.kr](https://hai.hannam.ac.kr/)의 인프라와 시스템 아키텍처 설계 담당 (학교 공식 채널 배포)
+- 단일 EC2에 **12컨테이너** 인프라와 Jenkins CI/CD를 단독 구축, 빌드 병목을 실측해 Docker 빌드 **151초 → 8.6초**
 - Claude Code 멀티에이전트 하네스를 **3개 팀 프로젝트에 단독 설계**, CI 안에서 읽기 전용 헤드리스로 MR 리뷰 자동화
 
 </td>
@@ -62,7 +62,8 @@
   <img src="https://img.shields.io/badge/LightGBM-02569B?style=flat-square" />
   <img src="https://img.shields.io/badge/XGBoost-337AB7?style=flat-square" />
   <img src="https://img.shields.io/badge/LLM%20%C2%B7%20RAG-000000?style=flat-square&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/YOLO11-00FFFF?style=flat-square&logo=yolo&logoColor=black" />
+  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" />
+  <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white" />
 </p>
 
 **Data Engineering**
@@ -72,6 +73,8 @@
   <img src="https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white" />
   <img src="https://img.shields.io/badge/Flink-E6526F?style=flat-square&logo=apacheflink&logoColor=white" />
 </p>
+
+<sub>SSAFY 데이터 엔지니어링 과정에서 학습하고 실습한 도구입니다.</sub>
 
 **Databases & Search**
 <p>
@@ -118,13 +121,13 @@
 <td width="50%" valign="top">
 
 ### 공연 티켓팅 · 공동 정산 플랫폼
-<sub>SSAFY 특화 · 진행 중 · 인프라·CI + 서버 체인 모듈</sub>
+<sub>SSAFY 특화 · 2026.08~09 · 인프라·CI + 서버 체인 모듈</sub>
 
 스마트 컨트랙트 기반 티켓 예매·수익 정산
 
-- Jenkins MR 빌드에 **Claude Code 읽기 전용 헤드리스 리뷰** 스테이지 구축
-- 도입 첫 리뷰에서 봇이 자기 MR의 **취약점 2건 자체 검출**
-- 체인 모듈 테스트 **76건 → 121건**
+- Jenkins MR 빌드에 **Claude Code 읽기 전용 리뷰**를 붙여 첫 리뷰에서 **취약점 2건 검출**
+- Blue-Green 전환으로 롤백 트래픽 전환 **1초**, 발행 정지 무인지(13시간)를 계기로 운영 경보 구축
+- 팀 커밋 1위 **305건 / 889건 (34%)**
 
 </td>
 <td width="50%" valign="top">
@@ -134,8 +137,8 @@
 
 아동 정서 케어 AI 서비스
 
-- Docker 빌드 **151s → 8.6s (-94%)**, 전체 파이프라인 **10.7분 → 44초 (-93%)**
-- 12컨테이너 자체 호스팅 · Blue-Green 배포 · k6 부하테스트
+- Docker 빌드 **151s → 8.6s (-94%)**, 12컨테이너 자체 호스팅 · Blue-Green 배포 · k6 부하테스트
+- AI 서버 RAG에 출처·버전 반환, 프롬프트 회귀 평가로 첫 실행에서 **리포트 결함 1건 검출**
 - 팀 커밋 1위 **310건 / 1,093건 (28%)**, MR 머지 1위 **233건**
 
 </td>
@@ -144,13 +147,13 @@
 <td width="50%" valign="top">
 
 ### 한남대학교 공식 AI 챗봇 · [Live](https://hai.hannam.ac.kr/)
-<sub>실서비스 운영 중 · 인프라·아키텍처</sub>
+<sub>학교 공식 채널 배포 · 인프라·아키텍처 담당</sub>
 
 RAG 기반 학사 질의응답 챗봇
 
 - Docker 마이크로서비스 아키텍처 설계
 - FAISS 벡터 검색 ↔ 백엔드 연결 구조
-- Prometheus · Grafana 실시간 모니터링, **공식 채널 배포**
+- Prometheus · Grafana 실시간 모니터링 체계 구축
 
 </td>
 <td width="50%" valign="top">
@@ -174,7 +177,7 @@ Fog of War 지도 탐험 + RAG 여행 추천
 
 지하철 시간대별 승차 통행량 예측
 
-- 외부 데이터 24개 변수 수집, 19개 선별
+- 외부 데이터 24개 변수 수집, 19개 선별 · 예측일(일요일) 패턴은 K-Means 파생변수로 보완
 - 6개 모델 5-Fold 비교, RandomForest 채택
 - **MAE 12.408 · 대상 (1위)**
 
@@ -185,7 +188,7 @@ Fog of War 지도 탐험 + RAG 여행 추천
 <sub>LG AI 연구원 7기 · KAIST 인턴</sub>
 
 - 식음업장 매출 수량 시계열 예측 — LSTM + LightGBM 앙상블, **1,744명 중 55위 (상위 3.2%)**
-- 센서 → MQTT → MySQL 실시간 파이프라인, DB 스키마 · Node-RED 대시보드 전 과정 주도
+- 센서 → MQTT → MySQL 실시간 파이프라인, DB 스키마 설계, Node-RED 대시보드, 자동 제어 구현
 
 </td>
 </tr>
@@ -197,10 +200,10 @@ Fog of War 지도 탐험 + RAG 여행 추천
 
 | | 수상 · 활동 | 기관 | 시기 |
 |:-:|---|---|:-:|
-| 🥇 | 지역사회 문제해결형 빅데이터/AI 활용 공모전 **대상** | 대전교통공사 | 2024 |
+| 🥇 | 제2회 지역사회 문제해결형 빅데이터/AI 활용 공모전 **대상** | 대전교통공사 | 2024 |
 | 🏅 | SSAFY 2학기 공통 프로젝트 **우수상** (dodam) | 삼성전자 | 2026 |
-| 🥉 | 지역사회 문제해결형 빅데이터/AI 활용 공모전 동상 | 한남대학교 | 2023 |
-| 📈 | LG Aimers 7기 온라인 해커톤 **상위 3.2%** (1,744명 중 55위) | LG AI 연구원 | |
+| 🥉 | 제1회 지역사회 문제해결형 빅데이터/AI 활용 공모전 동상 | 한남대학교 스마트융합대학 | 2023 |
+| 📈 | LG Aimers 7기 온라인 해커톤 **상위 3.2%** (1,744명 중 55위) | LG AI 연구원 | 2025 |
 | 👥 | 빅데이터응용학과 제3대 학생회 '의지' 회장 | 한남대학교 | 2024 |
 
 <br/>
